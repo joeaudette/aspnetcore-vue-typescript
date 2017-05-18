@@ -7,9 +7,9 @@ It took some experimenting to get things working as I wanted so thought I should
 
 ### Specific Changes 
 
-** using ts-loader instead of awesome-ts-loader
-** using .vue instead of .vue.html
-** updated webpack and other npm dependencies to the latest versions
+* using ts-loader instead of awesome-ts-loader
+* using .vue instead of .vue.html
+* updated webpack and other npm dependencies to the latest versions
 
 ## Observations about Tooling
 
@@ -50,7 +50,7 @@ Using [vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) 
 
 ## TO DO:
 
-** I would like to add client side testing to this sample
-** I would like to add vuex to this sample
+* I would like to add client side testing to this sample
+* I would like to add vuex to this sample
 
 
