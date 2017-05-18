@@ -6,7 +6,6 @@ const bundleOutputDir = './wwwroot/dist';
 
 module.exports = (env) => {
     const isDevBuild = !(env && env.prod);
-
     const bundleOutputDir = './wwwroot/dist';
     return [{
         stats: { modules: false },
@@ -38,6 +37,11 @@ module.exports = (env) => {
                     options: {
                         appendTsSuffixTo: [/\.vue$/]
                     }
+                },
+                 {
+                    test: /\.js$/,
+                    loader: 'babel-loader!eslint-loader',
+                    exclude: /node_modules/
                 },
                 { 
                     test: /\.css$/, 

@@ -46,11 +46,12 @@ I really wanted to use the single .vue file approach with the template, script, 
 	</style>
 	
 but the downside to doing it this way, is that in VSCode you do not get typescript intellisense inside the script element which you do get if you use a separate file. Even worse in VS 2017 you get intellsiense errors that are not true, ie it builds, it works but intellisense tells you there are errors. 
-Using [vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) in VSCode or [VuePack](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.VuejsPack-18329) in VS 2017, you do get nice color coding/syntax highlighting but still no intellisense on the code unless you use separate .ts files. So my advice is for non trivial components use separate files, for small components you can get away with the single file approach. I do hope these tooling issues can be addressed upstream at some point.
+Using [vetur](https://marketplace.visualstudio.com/items?itemName=octref.vetur) in VSCode or [VuePack](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.VuejsPack-18329) in VS 2017, you do get nice color coding/syntax highlighting but still no intellisense on the code unless you use separate .ts files. So my advice is for non trivial components use separate files, for small components you can get away with the single file approach. I do hope these tooling issues can be addressed upstream at some point because the single file component model really appeals to me.
 
 ## TO DO:
 
 * I would like to add client side testing to this sample
 * I would like to add vuex to this sample
+* I would like to use sass/scss instead of css
 
 
